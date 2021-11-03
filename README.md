@@ -1,5 +1,5 @@
-# MSDS474_GroupProject
-Product recommendation model used to recommend products to customers
+# MSDS 498 Data Engineering Capstone
+Model used to recommend products to customers
 
 Assignment Instructions:
 
@@ -15,3 +15,19 @@ Deliverables:
 1. Publish source code the Northwestern Data Engineering Capstone Github Organization
 1. Publish your demo to Northwestern Data Engineering Capstone YouTube channel and your own channel. The video should be at least 1080p with 16:9 aspect ratio.
 1. Create a post with a link to source code and video and share via Linkedin.  Add the following hashtags: #northwestern #dataengineering #capstone
+
+---
+# Overview
+- This project will recommend items to customers based on their purchase history at a grocery store. 
+
+
+# Engineering Architecture:
+
+(Insert here)
+
+
+# DS Architecture (Recommendation Model):
+
+(Insert here)
+
+
