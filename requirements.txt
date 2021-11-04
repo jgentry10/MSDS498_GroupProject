@@ -1,0 +1,6 @@
+Flask
+pandas
+numpy
+boto3
+tabulate
+gensim
