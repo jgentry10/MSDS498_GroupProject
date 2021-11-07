@@ -28,6 +28,7 @@ Deliverables:
 
 # DS Architecture (Recommendation Model):
 
-(Insert here)
-
-
+- The API will receive a Product_ID (5 digit number) from the user
+- It will send this Product_ID to a pre-built recommendation model (item2vec.200d.model) from mlApp.py
+- This model is called via "most_similar_readable" function
+- From this input, the API will return a JSON payload containing the list of most similar products and their scores
