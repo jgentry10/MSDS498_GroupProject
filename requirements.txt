@@ -4,3 +4,4 @@ numpy
 boto3
 tabulate
 gensim
+requests
