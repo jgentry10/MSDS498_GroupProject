@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <title> Prediction </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head> 
+<body>
+<h1 class="center3"> MSDS 498 PREDICTION SYSTEM </h1>
+<h1 class="center">{{aword}}</h1>
+<h1 class="center">{{pvalue}}</h1>
+    <form action="{{ url_for("predict")}}" method="post" class="center2">
+        <input type="text" id="payload" name="payload" placeholder="Enter Payload">
+        <button type="submit" class="button">Submit</button>
+</form>
+</body>
+</html>
