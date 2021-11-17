@@ -1,0 +1,52 @@
+body {
+    height: 95.5vh;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+  }
+  .center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .center3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family:Baskerville,Times,'Times New Roman',serif;
+    font-size:40px;
+    color:#faf8f9ec;
+    font-variant:small-caps;
+    text-align:center;
+    font-weight:bold;
+    padding:0px 0px 0px 0px;
+  }
+  
+  button {
+    background-color: #ec43b4e7; /* Green */
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  input[type=text] {
+    background-color: #faf8fa;
+    color: rgb(61, 109, 76);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 12px 80px;
+  }
