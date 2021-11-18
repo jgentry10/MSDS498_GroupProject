@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <title>Finacial Payment Default Prediction</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body class="u-body u-overlap u-overlap-contrast"><header class="u-clearfix u-grey-50 u-header u-header" id="sec-fe27"><div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-body-alt-color u-text-1">Finacial Payment Default Prediction</h2>
+        <p class="u-text u-text-body-alt-color u-text-2">To predict personal loan payment default</p>
+      </div>
+    </section>
+    <div class="login">
+ <div>
+	
+	</div>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post" style="z-index: 10">
+	    <input type="text" name="Label" placeholder="Label" required="required" /><br>
+    	<input type="text" name="PAY_AMT1" placeholder="Payment Amount" required="required" /><br>
+        <input type="text" name="BILL_AMT1" placeholder="Billing Amount" required="required" /><br>
+        <input type="text" name="LIMIT_BAL" placeholder="LIMIT_BALANCE" required="required" /><br>
+		<input type="text" name="SEX" placeholder="SEX" required="required" /><br>
+		<input type="text" name="EDUCATION" placeholder="EDUCATION" required="required" /><br>
+		<input type="text" name="MARRIAGE" placeholder="MARRIAGE" required="required" /><br>
+		<input type="text" name="AGE" placeholder="AGE" required="required" /><br>
+		<input type="text" name="PAY_0" placeholder="PAY_0" required="required" /><br>
+		<input type="text" name="PAY_2" placeholder="PAY_2" required="required" /><br>
+		<input type="text" name="PAY_3" placeholder="PAY_3" required="required" /><br>
+		<input type="text" name="PAY_4" placeholder="PAY_4" required="required" /><br>
+		<input type="text" name="PAY_5" placeholder="PAY_5" required="required" /><br>
+		<input type="text" name="PAY_6" placeholder="PAY_6" required="required" /><br>
+		<input type="text" name="BILL_AMT2" placeholder="BILL_AMT2" required="required" /><br>
+		<input type="text" name="BILL_AMT3" placeholder="BILL_AMT3" required="required" /><br>
+		<input type="text" name="BILL_AMT4" placeholder="BILL_AMT4" required="required" /><br>
+		<input type="text" name="BILL_AMT5" placeholder="BILL_AMT5" required="required" /><br>
+		<input type="text" name="BILL_AMT6" placeholder="BILL_AMT6" required="required" /><br>
+		<input type="text" name="PAY_AMT2" placeholder="PAY_AMT2" required="required" /><br>
+		<input type="text" name="PAY_AMT3" placeholder="PAY_AMT3" required="required" /><br>
+		<input type="text" name="PAY_AMT4" placeholder="PAY_AMT4" required="required" /><br>
+		<input type="text" name="PAY_AMT5" placeholder="PAY_AMT5" required="required" /><br>
+		<input type="text" name="PAY_AMT6" placeholder="PAY_AMT6" required="required" /><br>		
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   <font color="white" size="5">{{ prediction_text }}</font>
+
+ </div>
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-2012"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1"></p>
+      </div></footer>
+
+  </body>
+</html>
