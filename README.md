@@ -1,5 +1,22 @@
-# MSDS 498 Data Engineering Capstone
-Model used to recommend products to customers
+# MSDS 498 Data Engineering Capstone Project
+
+#Project Overview
+
+#Preview
+
+#Installation & Required Packages
+To use this project, first clone the repo on your device using the command below:
+
+git init
+
+git clone https://github.com/jgentry10/MSDS498_GroupProject
+
+#Contribute
+
+
+
+
+
 
 Assignment Instructions:
 
