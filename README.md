@@ -8,10 +8,10 @@ For a gentle introduction into recommender systems:
 https://en.wikipedia.org/wiki/Recommender_system
 <br />
 ## Architecture Overview
-- The API will receive a Product_ID (5 digit number) from the user
-- It will send this Product_ID to a pre-built recommendation model (item2vec.200d.model) from mlApp.py
-- This model is called via "most_similar_readable" function
-- From this input, the API will return a JSON payload containing the list of most similar products and their scores
+
+![MLOps drawio_v2](https://user-images.githubusercontent.com/18123748/142734692-ec53b8d0-acc8-45ec-bf03-5eb558e21932.png)
+
+
 <br />
 
 ## Installation & Required Packages
