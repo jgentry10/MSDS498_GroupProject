@@ -26,8 +26,7 @@ def predict():
 def form_predict():
     #Handle the post request and process the request
     if request.method == 'POST':
-        education = request.form.get('EDUCATION')
-        age = request.form.get('AGE')
+        education,age = [str(x) for x in request.form.values()]
         chunk1 = "{\"data\":\"0,-0.34147611300851444,0.18202662446267728,310000.0,2.0,"
         chunk_edu = education
         chunk_sex = ",1.0,"
