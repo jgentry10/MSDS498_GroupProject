@@ -8,9 +8,10 @@ For a gentle introduction into recommender systems:
 https://en.wikipedia.org/wiki/Recommender_system
 <br />
 ## Preview
-
 <br />
+
 ## Installation & Required Packages
+
 <br />
 To use this project, first clone the repo on your device using the command below:
 
@@ -19,7 +20,9 @@ git init
 git clone https://github.com/jgentry10/MSDS498_GroupProject
 
 <br />
+
 ## Contribute
+
 <br />
 <br />
 <br />
