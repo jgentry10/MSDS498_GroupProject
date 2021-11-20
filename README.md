@@ -8,11 +8,7 @@ For a gentle introduction into recommender systems:
 https://en.wikipedia.org/wiki/Recommender_system
 
 
-
-
 Preview
-
-
 
 
 Installation & Required Packages
