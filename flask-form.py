@@ -62,9 +62,9 @@ def form_predict():
     #Handle the GET request and create the input form
     return '''<form method="POST" class="center2">
                 <link rel="stylesheet" href="static/css/style.css">
-                <h2>Please select </h2>
-                <div><label>Level of Education: <input type="text" name="education"></label></div>
-                <div><label>Age: <input type="text" name="age"></label></div>
+                <h1 class="center3">Please select </h2>
+                <div class="center4"><label>Level of Education: <input type="text" name="education" placeholder="Enter Integer"></label></div>
+                <div class="center4"><label>Age: <input type="text" name="age" placeholder="Enter Integer"></label></div>
                 <input type="submit" value="Submit">
             </form>'''
 
