@@ -7,7 +7,7 @@ Kicking off the project in Week 1, our team was focused on finding a technology 
 For a gentle introduction into recommender systems:
 https://en.wikipedia.org/wiki/Recommender_system
 <br />
-## Preview
+## Architecture Overview
 <br />
 
 ## Installation & Required Packages
