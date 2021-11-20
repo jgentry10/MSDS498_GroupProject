@@ -1,6 +1,3 @@
-https://img.shields.io/badge/Release-1.0-green
-
-
 # MSDS 498 Data Engineering Capstone Project
 
 Project Overview
