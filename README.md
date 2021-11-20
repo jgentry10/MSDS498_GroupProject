@@ -7,10 +7,10 @@ Kicking off the project in Week 1, our team was focused on finding a technology 
 For a gentle introduction into recommender systems:
 https://en.wikipedia.org/wiki/Recommender_system
 <br />
-Preview
+## Preview
 
 <br />
-Installation & Required Packages
+## Installation & Required Packages
 To use this project, first clone the repo on your device using the command below:
 
 git init
@@ -18,7 +18,7 @@ git init
 git clone https://github.com/jgentry10/MSDS498_GroupProject
 
 <br />
-Contribute
+## Contribute
 <br />
 <br />
 <br />
