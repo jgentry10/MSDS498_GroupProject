@@ -8,6 +8,10 @@ For a gentle introduction into recommender systems:
 https://en.wikipedia.org/wiki/Recommender_system
 <br />
 ## Architecture Overview
+- The API will receive a Product_ID (5 digit number) from the user
+- It will send this Product_ID to a pre-built recommendation model (item2vec.200d.model) from mlApp.py
+- This model is called via "most_similar_readable" function
+- From this input, the API will return a JSON payload containing the list of most similar products and their scores
 <br />
 
 ## Installation & Required Packages
@@ -42,18 +46,4 @@ Deliverables:
 1. Create a post with a link to source code and video and share via Linkedin.  Add the following hashtags: #northwestern #dataengineering #capstone
 
 ---
-# Overview
-- This project will recommend items to customers based on their purchase history at a grocery store. 
 
-
-# Engineering Architecture:
-
-(Insert here)
-
-
-# DS Architecture (Recommendation Model):
-
-- The API will receive a Product_ID (5 digit number) from the user
-- It will send this Product_ID to a pre-built recommendation model (item2vec.200d.model) from mlApp.py
-- This model is called via "most_similar_readable" function
-- From this input, the API will return a JSON payload containing the list of most similar products and their scores
