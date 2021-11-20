@@ -1,17 +1,22 @@
 # MSDS 498 Data Engineering Capstone Project
 
-#Project Overview
+Project Overview
+Kicking off the project in Week 1, our team was focused on finding a technology that we believed would be a disruptor in the field of AI & ML. One technology that we found intriguing, was recommender systems.  Because of their widespread use across the applications we use everyday, we settled on recomender systems because we believe that as AI & ML systems mature in the coming decade, recommender systems will become ingrained in every aspect of our daily lives.  From recommending the next song or video in a playlist, to what product a customer may purchase, recommender systems are becoming an increasingly utilized method for businesses to connect with their customers in a more personalized way then ever before.  
 
-#Preview
+For a gentle introduction into recommender systems:
+https://en.wikipedia.org/wiki/Recommender_system
 
-#Installation & Required Packages
+
+Preview
+
+Installation & Required Packages
 To use this project, first clone the repo on your device using the command below:
 
 git init
 
 git clone https://github.com/jgentry10/MSDS498_GroupProject
 
-#Contribute
+Contribute
 
 
 
