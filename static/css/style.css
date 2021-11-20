@@ -29,7 +29,21 @@ body {
     font-weight:bold;
     padding:0px 0px 0px 0px;
   }
-  
+
+    .center4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family:Baskerville,Times,'Times New Roman',serif;
+    font-size:20px;
+    color:#fffcfbca;
+    font-variant:small-caps;
+    text-align:center;
+    font-weight:bold;
+    padding:0px 0px 0px 0px;
+  }
+
   button {
     background-color: #ec43b4e7; /* Green */
     border: none;
