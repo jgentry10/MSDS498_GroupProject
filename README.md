@@ -1,3 +1,5 @@
+https://img.shields.io/badge/Powered%20by-PostgreSQL-blue.svg
+
 # MSDS 498 Data Engineering Capstone Project
 
 ## Project Overview
