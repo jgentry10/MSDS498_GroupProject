@@ -1,6 +1,8 @@
 https://img.shields.io/badge/Powered%20by-PostgreSQL-blue.svg
 
 # MSDS 498 Data Engineering Capstone Project
+<br />
+Project Team: Janna Weng, Alex Newell, John Gentry, Scott Kaufman, Joel Riesen, Ching Pan
 
 ## Project Overview
 
