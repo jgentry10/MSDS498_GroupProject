@@ -6,8 +6,7 @@ https://img.shields.io/badge/Powered%20by-PostgreSQL-blue.svg
 
 Kicking off the project in Week 1, our team was focused on finding a technology that we believed would be a disruptor in the field of AI & ML. One technology that we found intriguing was prediction models due to their wide applicability across multiple industries.  We ultimately settled on prediction models as our technology to explore for the project, because we believe that as AI & ML systems mature in the coming decade, prediction models will become ingrained in every aspect of our daily lives.  Prediction models are already capable of predicting large weather events, such as excessive drought and fire seasons, as well as financial distriss - prediction models are becoming an increasingly utilized method for businesses to predict outcomes and mitigate risk.  
 <br />
-For a gentle introduction into recommender systems:
-https://en.wikipedia.org/wiki/Recommender_system
+Our team decided to build a model that could produce a score(prediction) indicating if a customer would be likely to default on a loan, based on specific charactericts of the individual customers.
 <br />
 ## Architecture Overview
 
