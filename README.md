@@ -19,6 +19,23 @@ Architecture Diagram:
 
 ## Installation & Required Packages
 <br />
+Required Packages
+<br />
+- Flask
+<br />
+- pandas
+<br />
+- numpy
+<br />
+- boto3
+<br />
+- tabulate
+<br />
+- gensim
+<br />
+- requests
+<br />
+
 To use this project, first clone the repo on your device using the command below:
 
 git init
