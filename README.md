@@ -39,7 +39,7 @@ git clone https://github.com/jgentry10/MSDS498_GroupProject
 
 <br />
 
-## Assignment Instructions:
+## Assignment Instructions & Requirements:
 
 Your team will make a “bet” on a technique or technology in the free resources you have been exposed to.  Maybe you want to demo step-by-step how to train a Tensorflow model on a TPU on GCP, or how to train an RNN model using AWS Sagemaker.  Pick something you think will “move the needle” in the next two years. Alumni of the program are counting on you to give them a demo of what skills they need to invest in.  Soon, you will be alumni and will be hoping other students will show you a demo of something that you can learn from in the coming years when you graduate.
 
