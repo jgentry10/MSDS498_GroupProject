@@ -1,5 +1,4 @@
-# MSDS 498 Data Engineering Capstone Project
-<br />
+# MSDS 498 Data Engineering Capstone Project <br />
 Project Team: Janna Weng, Alex Newell, John Gentry, Scott Kaufman, Joel Riesen, Ching Pan
 
 ## Project Overview
@@ -8,7 +7,8 @@ Kicking off the project in Week 1, our team was focused on finding a technology 
 <br />
 Our team decided to build a model that could produce a score(prediction) indicating if a customer would be likely to default on a loan, based on specific characteristics of the individual customers.
 <br />
-## Architecture Overview
+## Architecture Overview <br />
+To complete our project, we used a combination of different AWS services that allowed us to run, train and publish our results to a production web environment. In addition to AWS SageMaker Studio, we used AWS Lambda and API gateway services that allowed us to connect the application to our training data, and generate results that could immediately be published to our web environment, hosted by AWS.  The AWS AppRunner service allowed us to complete that final step of publishing our prediction results to a real-time web environment.  
 <br />
 Architecture Diagram: 
 
@@ -18,37 +18,28 @@ Architecture Diagram:
 <br />
 
 ## Installation & Required Packages
-<br />
+
 Required Packages
 <br />
 - Flask
-<br />
 - pandas
-<br />
 - numpy
-<br />
 - boto3
-<br />
 - tabulate
-<br />
 - gensim
-<br />
 - requests
 <br />
 
 To use this project, first clone the repo on your device using the command below:
 
 git init
+<br />
+
 git clone https://github.com/jgentry10/MSDS498_GroupProject
 
 <br />
 
-## Contribute
-
-<br />
-<br />
-<br />
-Assignment Instructions:
+## Assignment Instructions:
 
 Your team will make a “bet” on a technique or technology in the free resources you have been exposed to.  Maybe you want to demo step-by-step how to train a Tensorflow model on a TPU on GCP, or how to train an RNN model using AWS Sagemaker.  Pick something you think will “move the needle” in the next two years. Alumni of the program are counting on you to give them a demo of what skills they need to invest in.  Soon, you will be alumni and will be hoping other students will show you a demo of something that you can learn from in the coming years when you graduate.
 
