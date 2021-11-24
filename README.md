@@ -8,7 +8,7 @@ Kicking off the project in Week 1, our team was focused on finding a technology 
 Our team decided to build a model that could produce a score(prediction) indicating if a customer would be likely to default on a loan, based on specific characteristics of the individual customers.
 <br />
 ## Architecture Overview <br />
-To complete our project, we used a combination of different AWS services that allowed us to run, train and publish our results to a production web environment. In addition to AWS SageMaker Studio, we used AWS Lambda and API gateway services that allowed us to connect the application to our training data, and generate results that could immediately be published to our web environment, hosted by AWS.  The AWS AppRunner service allowed us to complete that final step of publishing our prediction results to a real-time web environment.  
+To complete our project, we used a combination of different AWS services that allowed us to run, train and publish our results to a production web environment. In addition to AWS SageMaker Studio, we used AWS Lambda and API gateway services that allowed us to connect the application to our training data, and generate results that could immediately be published to our web environment, hosted by AWS.  The AWS AppRunner service allowed us to complete that final step of publishing our prediction results to our hosted web service.  
 <br />
 Architecture Diagram: 
 
